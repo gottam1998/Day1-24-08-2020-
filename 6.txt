@@ -1,0 +1,24 @@
+class Pattern1 {
+
+                 public static void main (String[] args) {   
+
+                    for(int row1=0;row1<4;row1++) {
+                    	for(int space=3;space>row1;space--) {
+                    		System.out.print(" ");
+                    	}
+                    	for(int col1=0;col1<=row1;col1++) {
+                    		System.out.print("* ");
+                    		if(col1==3)
+                    		System.out.print("* ");
+                    	}
+                    	System.out.println();
+                    }
+                    for(int row2=0;row2<4;row2++) {
+                        for(int col2=0;col2<5;col2++) {
+                        	System.out.print("* ");
+                        }
+                        System.out.println();
+                        }
+    	  
+      }
+}
